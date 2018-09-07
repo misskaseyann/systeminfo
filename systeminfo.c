@@ -2,7 +2,9 @@
 #include <sys/types.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <unistd.h>
 
+/* A small program that uses system calls to obtain and report system information. */
 int main() {
 	/* Get user entry. */
 	struct passwd *pwd_entry;
